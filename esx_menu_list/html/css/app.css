@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,900&display=swap');
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.menu {
+	opacity: 0.85;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0px 0px 50px 0px #000;
+	overflow-y: auto;
+	max-height: 90%;
+	color: #fff !important;
+	text-transform: uppercase !important;
+}
+
+.menu button {
+	font-size: 14px !important;
+	font-family: 'Roboto', sans-serif;
+	background: none;
+	color: #fff;
+	outline: none;
+	border: none;
+	text-transform: uppercase !important;
+}
+
+.menu>table {
+	box-shadow: 0px 0px 50px 0px #000;
+	border-spacing: 0;
+	min-width: 400px;
+	background-color: transparent;
+}
+
+.menu>table>thead {
+	background: #8E54E9;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4776E6, #8E54E9);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #8E54E9, #8E54E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	font-weight: 900;
+	font-style: italic;
+	text-align: center;
+	height: 20px;
+	line-height: 20px;
+	color: #fff;
+}
+
+.menu td {
+	font-size: 14px;
+	text-align: center;
+	padding: 15px 15px 15px 15px;
+}
+
+.menu tbody tr:nth-child(even) {
+	color: #fff !important;
+	background-color: #1d1d1d !important;
+}
+
+.menu tbody tr:nth-child(odd) {
+	color: #fff !important;
+	background-color: #1d1d1d !important;
+}
