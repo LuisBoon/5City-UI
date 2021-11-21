@@ -1,5 +1,5 @@
 # 5City-UI
-Menu Dialog, Menu Default and Menu List z 5City
+Menu Dialog, Menu Default i Menu List z 5City
 
 
 # Pokaz
